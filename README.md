@@ -105,7 +105,7 @@ XGBRegressor(
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 car-price-morocco/
 │
 ├── ml/
