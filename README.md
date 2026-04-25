@@ -109,23 +109,22 @@ XGBRegressor(
 car-price-morocco/
 │
 ├── ml/
-│   └── train_model.py          # Pipeline ML complet
+│   └── train_model.py
 │
 ├── backend/
-│   ├── main.py                 # API FastAPI
-│   └── requirements.txt        # Dépendances Python
+│   ├── main.py
+│   └── requirements.txt
 │
 ├── frontend/
 │   ├── src/
-│   │   ├── App.js              # Application React
-│   │   └── index.js            # Point d'entrée
+│   │   ├── App.js
+│   │   └── index.js
 │   ├── public/
 │   │   └── index.html
 │   └── package.json
 │
-├── data/                       # Dataset à télécharger depuis Kaggle
-├── .gitignore
-└── README.md
+├── data/
+└── .gitignore
 
 ---
 
