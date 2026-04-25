@@ -302,7 +302,7 @@ Première main       ██                     2.3%
 
 ---
 
-## 📄 Licence
+##  Licence
 
 Ce projet est sous licence **MIT**.
 
