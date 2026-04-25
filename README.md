@@ -106,6 +106,7 @@ XGBRegressor(
 ---
 
 ##  Structure du projet
+```
 car-price-morocco/
 │
 ├──  ml/
@@ -131,7 +132,7 @@ car-price-morocco/
 │
 ├── .gitignore                  # Fichiers exclus de Git
 └── README.md                   # Documentation du projet
-
+```
 ---
 
 ##  Installation
