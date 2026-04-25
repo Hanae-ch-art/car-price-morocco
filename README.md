@@ -108,23 +108,29 @@ XGBRegressor(
 ##  Structure du projet
 car-price-morocco/
 │
-├── ml/
-│   └── train_model.py
+├──  ml/
+│   ├── train_model.py          # Pipeline ML complet (XGBoost + Optuna)
+│   ├── car_price_model.pkl     # Modèle entraîné (généré après train_model.py)
+│   ├── statistics.json         # Statistiques du dataset (généré)
+│   └── model_info.json         # Métadonnées du modèle (généré)
 │
-├── backend/
-│   ├── main.py
-│   └── requirements.txt
+├──  backend/
+│   ├── main.py                 # API FastAPI (endpoints predict/stats/chatbot)
+│   └── requirements.txt        # Dépendances Python
 │
-├── frontend/
-│   ├── src/
-│   │   ├── App.js
-│   │   └── index.js
-│   ├── public/
-│   │   └── index.html
-│   └── package.json
+├──  frontend/
+│   ├──  src/
+│   │   ├── App.js              # Application React principale (3 pages)
+│   │   └── index.js            # Point d'entrée React
+│   ├──  public/
+│   │   └── index.html          # Template HTML avec Tailwind CDN
+│   └── package.json            # Dépendances Node.js
 │
-├── data/
-└── .gitignore
+├──  data/
+│   └── AvitoCarsClean.csv      # Dataset Avito Maroc (à télécharger depuis Kaggle)
+│
+├── .gitignore                  # Fichiers exclus de Git
+└── README.md                   # Documentation du projet
 
 ---
 
