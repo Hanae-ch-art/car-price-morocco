@@ -1,0 +1,38 @@
+# Python - environnement virtuel
+venv/
+env/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+__pycache__/
+*.pyc
+*.pyo
+
+# Modèle ML (trop lourd)
+ml/car_price_model.pkl
+ml/statistics.json
+ml/model_info.json
+
+# Node.js
+node_modules/
+frontend/node_modules/
+
+# Dataset (trop lourd)
+data/
+
+# Fichiers de build
+frontend/build/
+dist/
+build/
+
+# Environnement
+.env
+.env.local
+
+# OS Windows
+Thumbs.db
+desktop.ini
+
+# Test
+test_model.py
