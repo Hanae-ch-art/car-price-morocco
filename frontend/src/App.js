@@ -7,7 +7,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 
 // ─── API Config ─────────────────────────────────────────────────────────────
-const API_BASE = process.env.REACT_APP_API_URL || 'https://car-price-morocco-production.up.railway.app';
+const API_BASE = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8000';
 const ANTHROPIC_API_URL = 'https://api.anthropic.com/v1/messages';
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
